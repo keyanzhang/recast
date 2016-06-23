@@ -1348,16 +1348,16 @@ describe("printer", function() {
         ].join(eol);
 
         var ast = b.typeAlias(
-            b.identifier('MyType'),
+            b.identifier("MyType"),
             null,
             b.objectTypeAnnotation([
                 b.objectTypeProperty(
-                    b.identifier('message'),
+                    b.identifier("message"),
                     b.stringTypeAnnotation(),
                     false
                 ),
                 b.objectTypeProperty(
-                    b.identifier('isAwesome'),
+                    b.identifier("isAwesome"),
                     b.booleanTypeAnnotation(),
                     false
                 )
@@ -1378,16 +1378,16 @@ describe("printer", function() {
         ].join(eol);
 
         var ast = b.typeAlias(
-            b.identifier('MyType'),
+            b.identifier("MyType"),
             null,
             b.objectTypeAnnotation([
                 b.objectTypeProperty(
-                    b.identifier('message'),
+                    b.identifier("message"),
                     b.stringTypeAnnotation(),
                     false
                 ),
                 b.objectTypeProperty(
-                    b.identifier('isAwesome'),
+                    b.identifier("isAwesome"),
                     b.booleanTypeAnnotation(),
                     false
                 )
